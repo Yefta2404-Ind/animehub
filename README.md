@@ -11,10 +11,9 @@ Dibangun dengan **CodeIgniter 4**, HTML/CSS (dark‑theme), dan sedikit JavaScr
 ✨ Fitur Utama
 | Fitur | Deskripsi |
 |-------|-----------|
-| 🎬 Hero Banner Dinamis** | Poster anime bergulir otomatis dengan teks overlay. |
-| 🖼️ Anime Grid & Detail Page** | Kartu anime interaktif + halaman detail (sinopsis, trailer YouTube). |
-| 🎞️ Trailer Embed** | Video responsif (YouTube iframe). |
-| 📞 Kontak Page** | Card info (email, telepon, alamat) dengan ikon Font Awesome. |
+| 🎬 Hero Banner Dinamis | Poster anime bergulir otomatis dengan teks overlay. |
+| 🖼️ Anime Grid & Detail Page | Kartu anime interaktif + halaman detail (sinopsis, trailer YouTube). |
+| 📞 Kontak Page | Card info (email, telepon, alamat) dengan ikon Font Awesome. |
 
 ## 🛠️ Tech Stack
 - **PHP 8** + **CodeIgniter 4.6**
