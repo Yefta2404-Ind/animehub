@@ -1,0 +1,50 @@
+/* ==== BASE DARK THEME ==== */
+.about-body{
+  margin:0;font-family:'Montserrat',sans-serif;background:#000;color:#eee;overflow-x:hidden
+}
+.about-wrapper{max-width:960px;margin:auto;padding:40px 20px}
+
+/* ==== HERO ==== */
+.about-hero{position:relative;height:300px;border-radius:12px;overflow:hidden;margin-bottom:60px}
+.about-poster-row{position:absolute;inset:0;overflow:hidden}
+.about-poster-track{display:flex;gap:10px;width:max-content;animation:about-scroll 25s linear infinite}
+.about-poster-track img{height:100%;width:180px;object-fit:cover;flex-shrink:0;filter:brightness(.65);border-radius:8px}
+@keyframes about-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.about-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,#000 25%,transparent)}
+.about-hero-text{position:relative;z-index:2;padding:40px;text-align:left}
+.about-hero-text h1{font-size:42px;color:#f9d342;margin-bottom:8px}
+.about-hero-text p{font-size:18px;color:#ccc}
+
+/* ==== GENERIC SECTION ==== */
+.about-section{text-align:center;margin-bottom:50px}
+.about-section h2,.about-section h3{color:#e50914;margin-bottom:18px}
+.about-section p{font-size:16px;color:#ddd;max-width:700px;margin:0 auto}
+
+/* ==== CARD CONTAINER ==== */
+.about-card-container{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-bottom:60px}
+.about-card{
+  background:#1e1e1e;
+  flex:1 1 250px;
+  padding:24px 20px;
+  border-radius:12px;
+  box-shadow:0 4px 20px rgba(0,0,0,.4);
+  transition:transform .3s ease,box-shadow .3s
+}
+.about-card:hover{transform:translateY(-6px);box-shadow:0 8px 25px rgba(0,0,0,.6)}
+.about-card h3{color:#f9d342;margin-bottom:12px;font-size:18px}
+.about-card p{color:#ccc;font-size:15px}
+
+/* ==== CTA ==== */
+.about-cta{background:#111;padding:40px 20px;border-radius:12px}
+.about-btn{
+  display:inline-block;margin-top:22px;padding:12px 28px;
+  background:#e50914;color:#fff;font-weight:600;border-radius:8px;text-decoration:none;
+  transition:background .3s
+}
+.about-btn:hover{background:#ff1e28}
+
+/* ==== RESPONSIVE ==== */
+@media(max-width:600px){
+  .about-hero-text{padding:30px 20px}.about-hero-text h1{font-size:30px}
+  .about-card{flex:1 1 100%}
+}
